@@ -1,0 +1,197 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #222;
+    font-family: "Roboto", serif;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+.text-regular {
+    color: #666;
+}
+
+.text-dark {
+    color: #222;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.dotted li::after {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin: 0 8px;
+    border-radius: 100%;
+    background-color: #666;
+}
+
+ul.dotted li:last-child::after {
+    display: none;
+    
+}
+
+ul.dotted .red {
+    color: red;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content:space-between;
+}
+
+.gap {
+    gap: 8px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mb-6 {
+    margin-bottom: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main {
+    width: 66.666%;
+}
+
+aside {
+    width: 33.333%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    color: #666;
+
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+} 
+
+.navbar ul li {
+    padding: 6px;
+}
+
+.membership {
+    border: 1px solid #666;
+    padding: 8px 20px;
+    border-radius: 40px;
+}
+
+.avatar {
+    color: white;
+    background-color: forestgreen;
+    border: none;
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.autor {
+    display: block;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #666;
+}
+
+#logo {
+    display: block;
+    width: 150px;
+}
+
+.following-tab h4 span {
+    text-transform: uppercase;
+
+}
+
+.following-tab h4 span:first-child {
+    color: #666;
+    font-weight: lighter;
+    margin-right: 16px;
+}
+
+.following-tab h4 span:nth-child(2) {
+    display: inline-block ;
+    padding: 5px;
+    border-bottom: 1px solid #222;
+}
+
+.blog-item {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 60px;
+
+}
+
+.blog-item-thumb {
+    width: 33.333%;
+
+}
+
+.blog-item-thumb img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-item-text {
+    width: 66.666%;
+}
+
