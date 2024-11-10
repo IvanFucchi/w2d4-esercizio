@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
 }
 
+button {
+    background-color: transparent;
+}
+
 .text-regular {
     color: #666;
 }
@@ -50,6 +54,19 @@ ul.dotted .red {
     display: flex;
 }
 
+.direction-column {
+    flex-direction: column;
+}
+
+.flex-none {
+    flex: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
 .items-center {
     align-items: center;
 }
@@ -74,6 +91,13 @@ ul.dotted .red {
     margin-bottom: 16px;
 }
 
+
+
+.fa-twitter {
+color: cornflowerblue;
+margin: 8px;
+}
+
 img {
     max-width: 100%;
 }
@@ -92,9 +116,9 @@ a:hover {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    align-items: center;
     width: 1200px;
     margin: 0 auto;
+    gap: 45px;
 }
 
 main {
@@ -103,6 +127,11 @@ main {
 
 aside {
     width: 33.333%;
+    padding: 30px;
+}
+
+aside section {
+    padding: 15px;
 }
 
 .content {
@@ -125,6 +154,49 @@ aside {
 
 .navbar ul li {
     padding: 6px;
+}
+
+ul.recommended-topics {
+    margin: 0 -4px;
+}
+
+ul.recommended-topics li {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #eee;
+    border-radius: 40px;
+    margin: 4px;
+
+}
+
+ul.follow-list li {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+
+}
+
+ul.follow-list li img {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    object-fit: cover;
+}
+
+ul.follow-list li h4 {
+    margin: 0;
+
+}
+
+ul.follow-list li p {
+    margin: 0;
+} 
+
+ul.follow-list li button {
+    border: 1px solid #666;
+    padding: 8px 14px;
+    border-radius: 40px;
+    background-color: transparent;
 }
 
 .membership {
@@ -194,4 +266,12 @@ aside {
 .blog-item-text {
     width: 66.666%;
 }
+
+button.connect {
+    border: 1px solid #666;
+    padding: 4px 30px;
+    border-radius: 40px;
+}
+
+
 
