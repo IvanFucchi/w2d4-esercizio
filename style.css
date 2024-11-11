@@ -221,7 +221,7 @@ ul.follow-list li button {
     height: 24px;
     object-fit: cover;
     border-radius: 6px;
-    border: 1px solid #666;
+    /*border: 1px solid #666;*/
 }
 
 #logo {
@@ -271,6 +271,29 @@ button.connect {
     border: 1px solid #666;
     padding: 4px 30px;
     border-radius: 40px;
+}
+
+.aside-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.medium-twitter-logo p {
+    color: cornflowerblue;
+    padding: 4px;
+}
+
+div .medium-twitter-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-brands fa-medium {
+    width: 60px;
+    height: 40px;
 }
 
 
